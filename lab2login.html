@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <!-- Alexander Winchester, SER 421 -->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NEW News Inc. Login</title>
+        <meta name="description" content="Login page for NEW News Inc.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1 id="NEW News Inc. Login"></h1>
+        <p id="value"></p>
+        <script type="text/javascript">
+            var status = "Guest";
+            var username = "guest";
+            
+        </script>
+        <form action="news.py" method="POST" target = "_blank">
+            User Name:
+            <br>
+            <input type='text' name='userName' cols='50' required>
+            <br>
+            User Status: 
+            <br>
+            &emsp;
+            Subscriber
+            <input type='radio' name='userStatus' value='Subscriber'>
+            <br>
+            &emsp;
+            Reporter
+            &ensp;
+            <input type="radio" name="userStatus" value="Reporter" checked>
+            <br>
+            <input type="submit" value="Submit">
+            
+        </form>
+        
+    </body>
+    
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <!-- Alexander Winchester, SER 421 -->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NEW News Inc. Home</title>
+        <meta name="description" content="Home page for NEW News I">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1 id="welcome"></h1>
+        <script type="text/javascript">
+            var userStatus = "Guest";
+            var userName = "guest";
+            document.getElementById("welcome").innerHTML = "Welcome " + userName + ", you currently have " + userStatus + " priviledges";
+            
+            
+        </script>
+        <form method="GET" action="lab2login.html">
+            <input type="submit" value="Login">
+        </form>
+        
+    </body>
+    
+</html>
